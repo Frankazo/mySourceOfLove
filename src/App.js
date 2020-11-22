@@ -1,13 +1,15 @@
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import './App.css';
+
 import Home from './components/home.js';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Nav from './components/nav.js';
+import Navigation from './components/nav.js';
+
 
 function App() {
   return (
     <div className="App">
-      <Nav />
+      <Navigation />
       <Home />
     </div>
   );
