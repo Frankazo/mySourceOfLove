@@ -45,17 +45,6 @@ const Home = () => (
             <p style={{ color: `#000000`, fontFamily: `Kumbh Sans`, fontSize: `1.2em`, }}>
                 A full portfolio site its been develop, in the mean time please check out my social networks and my photos <a href="https://picti.net/WSjiC" target="_blank" rel="noopener noreferrer" style={{ color: `#B75CDE` }}>HERE</a>
             </p>
-            <div className="site-mast-right">
-                <a href="https://www.instagram.com/mysourceoflove/" target="_blank" rel="noopener noreferrer"><img style={{ width: `75px`, height: `75px` }} src={require(`../images/instagram.svg`)} alt="Instagram" />
-                </a>
-                <a href="https://www.facebook.com/mysourceoflove/" target="_blank" rel="noopener noreferrer"><img style={{ width: `75px`, height: `75px`, marginLeft: `15px` }} src={require(`../images/facebook.svg`)} alt="Facebook" />
-                </a>
-                <a href="https://twitter.com/hellyydaya" target="_blank" rel="noopener noreferrer"><img style={{ width: `75px`, height: `75px`, marginLeft: `15px` }} src={require(`../images/twitter.svg`)} alt="Twitter" />
-                </a>
-                <a href="https://www.youtube.com/channel/UCQK5tCDg6zGWBsmaEn1Gu7Q" target="_blank" rel="noopener noreferrer"><img style={{ width: `75px`, height: `75px`, marginLeft: `15px` }} src={require(`../images/youtube.svg`)} alt="Youtube" />
-                </a>
-                <a href="mailto: HellyDayana@sourceoflove.com"><img style={{ width: `75px`, height: `75px`, marginLeft: `15px` }} src={require(`../images/envelope.svg`)} alt="Email" /></a>
-            </div>
         </Container>
     </MyDiv>
 )
