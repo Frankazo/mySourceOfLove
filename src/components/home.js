@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const MyDiv = styled.div`
-    height: 50%;
+    height: 100%;
     width: auto;
     margin: 0;
     background: #f6f2ff;
@@ -31,7 +31,23 @@ const AuthorImg = styled.figure`
       border-radius: 50%;
       background-color: rgb( 255, 255, 255 );
   }
+
+  @media (max-width: 767px) {    
+      img {
+        width: 250px;    
+      }          
+  }
 `
+
+const ImgLogo = styled.img`
+  width: 500px;
+  height: auto;
+
+  @media (max-width: 767px) {
+        width: 250px;    
+  }
+`
+
 const Home = () => (
     <MyDiv>
         <AuthorImg>
@@ -39,7 +55,7 @@ const Home = () => (
         </AuthorImg>
         <Container>
             <div className="site-mast-right">
-                <img style={{ width: `500px`, height: `175px` }} src={require(`../images/logo.png`)} alt="logo"/>
+                <ImgLogo src={require(`../images/logo.png`)} alt="logo"/>
             </div>
             <p style={{ color: `#000000`, fontFamily: `Dancing Script`, cursive: `true`, fontSize: `1.5em`, marginLeft: `300px` }}>By Helly Dayana</p>
             <p style={{ color: `#000000`, fontFamily: `Kumbh Sans`, fontSize: `1.2em`, }}>
