@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const MyDiv = styled.div`
-    height: 100%;
+    height: 60%;
     width: auto;
     margin: 0;
     background: #f6f2ff;
@@ -10,6 +10,7 @@ const MyDiv = styled.div`
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 10px;
 `
 
 const Container = styled.div`
