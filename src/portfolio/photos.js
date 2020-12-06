@@ -1,13 +1,13 @@
 export const photos = [
     {
-      src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
-      width: 4,
-      height: 3
+      src: "https://i.imgur.com/fy12gsL.jpg",
+      width: 6,
+      height: 4
     },
     {
-      src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
-      width: 1,
-      height: 1
+      src: "https://i.imgur.com/3MZqLls.jpg",
+      width: 2,
+      height: 3
     },
     {
       src: "https://source.unsplash.com/qDkso9nvCg0/600x799",

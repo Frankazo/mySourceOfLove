@@ -7,13 +7,13 @@ import Modal from 'react-bootstrap/Modal'
 import styled from 'styled-components'
 
 const Container = styled.div`
-  margin: 0 20px 20px 20px;
+  margin: 0 150px 0 150px;
   font-family: "Dancing Script";
   
 
   h1 {
-      margin-bottom: -1px;
-      font-size: 2em;
+      margin-bottom: 10px;
+      font-size: 2.5em;
   }
 `
 
