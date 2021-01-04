@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import Gallery from './gallery.js'
+
 const Home = () => (
     <MyDiv>
         <AuthorImg>
@@ -15,6 +17,7 @@ const Home = () => (
                 A full portfolio site its been develop, in the mean time please check out my social networks and my photos <a href="https://picti.net/WSjiC" target="_blank" rel="noopener noreferrer" style={{ color: `#B75CDE` }}>HERE</a>
             </p>
         </Container>
+        <Gallery />
     </MyDiv>
 )
 
