@@ -1,8 +1,25 @@
 import React from 'react'
 import styled from 'styled-components'
 
+const Home = () => (
+    <MyDiv>
+        <AuthorImg>
+            <img src={require(`../images/author-2.jpg`)} alt="Author"/>
+        </AuthorImg>
+        <Container>
+            <div className="site-mast-right">
+                <ImgLogo src={require(`../images/logo.png`)} alt="logo"/>
+            </div>
+            <p style={{ color: `#000000`, fontFamily: `Dancing Script`, cursive: `true`, fontSize: `1.5em`, marginLeft: `300px` }}>By Helly Dayana</p>
+            <p style={{ color: `#000000`, fontFamily: `Kumbh Sans`, fontSize: `1.2em`, }}>
+                A full portfolio site its been develop, in the mean time please check out my social networks and my photos <a href="https://picti.net/WSjiC" target="_blank" rel="noopener noreferrer" style={{ color: `#B75CDE` }}>HERE</a>
+            </p>
+        </Container>
+    </MyDiv>
+)
+
+
 const MyDiv = styled.div`
-    height: 100%;
     width: auto;
     margin: 0;
     background: #f6f2ff;
@@ -10,6 +27,7 @@ const MyDiv = styled.div`
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 10px;
 `
 
 const Container = styled.div`
@@ -47,22 +65,5 @@ const ImgLogo = styled.img`
         width: 250px;    
   }
 `
-
-const Home = () => (
-    <MyDiv>
-        <AuthorImg>
-            <img src={require(`../images/author-2.jpg`)} alt="Author"/>
-        </AuthorImg>
-        <Container>
-            <div className="site-mast-right">
-                <ImgLogo src={require(`../images/logo.png`)} alt="logo"/>
-            </div>
-            <p style={{ color: `#000000`, fontFamily: `Dancing Script`, cursive: `true`, fontSize: `1.5em`, marginLeft: `300px` }}>By Helly Dayana</p>
-            <p style={{ color: `#000000`, fontFamily: `Kumbh Sans`, fontSize: `1.2em`, }}>
-                A full portfolio site its been develop, in the mean time please check out my social networks and my photos <a href="https://picti.net/WSjiC" target="_blank" rel="noopener noreferrer" style={{ color: `#B75CDE` }}>HERE</a>
-            </p>
-        </Container>
-    </MyDiv>
-)
 
 export default Home
