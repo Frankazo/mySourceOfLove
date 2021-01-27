@@ -11,6 +11,7 @@
     "react-bootstrap": "^1.4.0",
     "react-dom": "^16.13.1",
     "react-photo-gallery": "^8.0.0",
+    "react-responsive-gallery": "^1.2.5",
     "react-scripts": "3.4.3",
     "styled-components": "^5.2.0"
   },
