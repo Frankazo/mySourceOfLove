@@ -61,8 +61,8 @@ export const photos = [
     },
     {
       src: "https://i.imgur.com/0qq0lVh.jpg",
-      width: 5,
-      height: 3
+      width: 6,
+      height: 4
     },
     {
       src: "https://i.imgur.com/wHU5dzN.jpg",
@@ -76,8 +76,8 @@ export const photos = [
     },
     {
       src: "https://i.imgur.com/XaOXUQh.jpg",
-      width: 4,
-      height: 6
+      width: 6,
+      height: 4
     }
   ];
   
