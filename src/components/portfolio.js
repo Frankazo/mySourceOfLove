@@ -7,7 +7,6 @@ import Modal from 'react-bootstrap/Modal'
 import styled from 'styled-components'
 
 const Container = styled.div`
-  margin: 0 150px 0 150px;
   font-family: "Dancing Script";
   
 
