@@ -10,7 +10,7 @@ const Navigation = () => {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto" style={{fontFamily: `Dancing Script`, fontSize: `1.5em`}}>
-          <Nav.Link href="https://mysourceoflove.pic-time.com/-porfolio/gallery" target="_blank" style={{color: `#000`}}>Portfolio</Nav.Link>
+          <Nav.Link href="https://mysourceoflove.pic-time.com/-porfolio/gallery" target="_blank" style={{color: `#000`}}>Pic-Time</Nav.Link>
           <Nav.Link href="#pricing" disabled> Shop</Nav.Link>
           <Nav.Link href="#pricing" disabled>Blog</Nav.Link>
         </Nav>
